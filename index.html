@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script src="js/global.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/FK.js"></script>
+        <script src="js/class.js"></script>
+        <script src="js/button.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>测试</title>
+    </head>
+    <body>
+        <div>
+            <button onclick="going()" id="start_step_one">进入游戏界面</button>
+            <button onclick="begin()" id="start_step_two" style="display: none;">开始</button>
+            <button onclick="suspend()" id="start_step_three1" style="display: none;">暂停</button>
+            <button onclick="unSuspend()" id="start_step_three2" style="display: none;">开始</button>
+        </div>
+        <div class="main" id="main">
+        </div>
+        <div id="box" style="display: none;width: 154px;height: 308px;float: left;margin-top: 15px;margin-left: 15px;">
+            <div style="width: 150px;height: 150px;text-align:center;font-size:0px;position: relative;border: 2px solid black;background-color: #dddddd;">
+                <div id="next" style="position: relative; top: 50%; transform: translateY(-50%);">
+                </div>
+            </div>
+            <div style="width: 150px;height: 150px;text-align:center;font-size:0px;position: relative;border: 2px solid black;background-color: #dddddd;">
+                <div id="now" style="position: relative; top: 50%; transform: translateY(-50%);">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
